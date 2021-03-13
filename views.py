@@ -9,3 +9,7 @@ def init_app(app: Flask):
     @app.route("/about/<string:nome>/")
     def about(nome):
         return f'My name is {nome}'
+
+    @app.route("/shop")
+    def shop():
+        return "<h1>sale 25% off</h1>"
