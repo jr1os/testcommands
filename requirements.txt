@@ -1,0 +1,6 @@
+flask
+flask-sqlalchemy
+SQLAlchemy<1.4.0
+flask-migrate
+flask-admin
+dynaconf
